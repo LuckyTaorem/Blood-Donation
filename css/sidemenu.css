@@ -1,0 +1,25 @@
+#menu img{
+    width: 5vw;
+    height: 5vw;
+    border-radius: 5vw;
+    border:1px solid black;
+  }
+  #menu a{
+    display: block;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    background-color: #e3e3e3;
+    color: black;
+  }
+  #menu a:hover{
+    background-color: #c9c9c9;
+  }
+#menu #logout{
+  background-color: red;
+  color:white;
+}
+#menu #logout:hover{
+  background-color: #bf0000;
+}
