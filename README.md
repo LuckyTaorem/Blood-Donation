@@ -1,2 +1,10 @@
-# Major-Project
- There is PHP in this project so it won't work, Only Static site will work.
+Some of the GUI:
+![image](https://github.com/LuckyTaorem/majorproject/assets/67669132/d25aed2f-bb98-4e48-b95e-248c98f4e06e)
+![image](https://github.com/LuckyTaorem/majorproject/assets/67669132/6cfd511e-311b-41c8-ab28-a11bb3782221)
+![image](https://github.com/LuckyTaorem/majorproject/assets/67669132/256c40cb-be8d-4bd6-9df1-1871e6688b9f)
+![image](https://github.com/LuckyTaorem/majorproject/assets/67669132/661e35e3-b57a-4bee-bc5f-f514d101d141)
+![image](https://github.com/LuckyTaorem/majorproject/assets/67669132/83be1e31-0e1e-4787-a1db-3dd6dae015fc)
+![image](https://github.com/LuckyTaorem/majorproject/assets/67669132/be56c025-b667-47ee-9b70-e8de016f916a)
+![image](https://github.com/LuckyTaorem/majorproject/assets/67669132/d5be08ff-2321-4b73-b1f8-95a635db8c34)
+![image](https://github.com/LuckyTaorem/majorproject/assets/67669132/63449663-cda8-4adb-bf24-1840a10308a2)
+![image](https://github.com/LuckyTaorem/majorproject/assets/67669132/dae52dfe-cd76-4e99-af9a-8767fe9e47fc)
