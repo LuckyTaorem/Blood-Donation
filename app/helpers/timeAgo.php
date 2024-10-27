@@ -2,10 +2,14 @@
 
 // setting up the time Zone
 // It Depends on your location or your P.c settings
-date_default_timezone_set('Asia/Kolkata');
+
+
 
 function last_seen($date_time){
-
+    date_default_timezone_set('Asia/Kolkata');
+$date = new \DateTime();
+$date->setTimezone(new \DateTimeZone('+0530')); //GMT
+$indiantime = $date->format('Y-m-d H:i:s');
    $timestamp = strtotime($date_time);	
    
    $strTime = array("second", "minute", "hour", "day", "month", "year");
@@ -13,7 +17,7 @@ function last_seen($date_time){
 
    $currentTime = time();
    if($currentTime >= $timestamp) {
-		$diff     = time()- $timestamp;
+		$diff = time()- $timestamp;
 		for($i = 0; $diff >= $length[$i] && $i < count($length)-1; $i++) {
 		$diff = $diff / $length[$i];
 		}

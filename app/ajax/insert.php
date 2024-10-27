@@ -39,8 +39,9 @@ if (isset($_SESSION['email'])) {
 	    // setting up the time Zone
 		// It Depends on your location or your P.c settings
 		date_default_timezone_set('Asia/Kolkata');
-
-		$time = date("h:i a");
+$date = new \DateTime();
+$date->setTimezone(new \DateTimeZone('+0530')); //GMT
+$time=$date->format('h:i a');
 
 		if ($stmt2->rowCount() == 0 ) {
 			# insert them into conversations table 
@@ -62,6 +63,6 @@ if (isset($_SESSION['email'])) {
      }
   }
 }else {
-	header("Location: ../../index.php");
+	header("Location: ../../newuser/index.php");
 	exit;
 }

@@ -171,7 +171,7 @@ class Friend{
     // REQUEST NOTIFICATIONS
     public function request_notification($my_id, $send_data){
         try{
-            $sql = "SELECT sender, name, p_p FROM `friend_request` JOIN users ON friend_request.sender = users.user_id WHERE receiver = ?";
+            $sql = "SELECT sender, name, p_p, email FROM `friend_request` JOIN users ON friend_request.sender = users.user_id WHERE receiver = ?";
 
             $stmt = $this->db->prepare($sql);
             $stmt->execute([$my_id]);

@@ -114,7 +114,7 @@ class User{
     // FETCH ALL USERS WHERE ID IS NOT EQUAL TO MY ID
     function all_users($id){
         try{
-            $get_users = $this->db->prepare("SELECT user_id, name, p_p FROM `users` WHERE user_id != ?");
+            $get_users = $this->db->prepare("SELECT user_id,email, name, p_p FROM `users` WHERE user_id != ?");
             $get_users->execute([$id]);
             if($get_users->rowCount() > 0){
                 return $get_users->fetchAll(PDO::FETCH_OBJ);

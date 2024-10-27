@@ -28,6 +28,11 @@ if (isset($_SESSION['email'])) {
 		   }
 	   </style>
        <li class="list-group-item" id="userlist">
+       <?php
+			$emailse = $user['email'];
+			$default = "https://img.icons8.com/plasticine/80/000000/test-account.png";
+			$grav_url_80se = "https://www.gravatar.com/avatar/" . md5( strtolower( trim( $emailse ) ) ) . "?d=" . urlencode( $default ) . "&s=80";
+		   ?>
 		<a href="user_profile.php?id=<?=$user['user_id']?>"
 		   class="d-flex
 		          justify-content-between
@@ -35,7 +40,7 @@ if (isset($_SESSION['email'])) {
 			<div class="d-flex
 			            align-items-center">
 
-			    <img src="../profile_images/<?=$user['p_p']?>"
+			    <img src="<?php echo $grav_url_80se;?>"
 			         class="w-10 rounded-circle">
 
 			    <h3 class="fs-xs m-2">

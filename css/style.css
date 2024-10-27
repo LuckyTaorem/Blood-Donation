@@ -74,3 +74,378 @@ textarea {
 }
 
 /*message_status*/
+table{
+    margin-left:auto;
+    margin-right:auto;
+    font-size:1vw;
+    text-align:center;
+    width:98%;
+    margin-top:1%;
+    border-collapse:collapse;
+}
+th{
+    width:fit-content;
+    padding-top:10px;
+    padding-bottom:10px;
+
+}
+thead{
+    background-color:lightblue;
+}
+tbody{
+    background-color:white;
+}
+td{
+    padding-top:10px;
+    padding-bottom:10px;
+}
+#searchcity{
+  margin-top:2%;
+margin-left:1%;
+width:fit-content;
+}
+@media only screen and (max-width: 600px) {
+#searchcity{
+font-size: 8px;
+height: 25px;
+}
+}
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  .activefaq, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  .accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .activefaq:after {
+    content: "\2212";
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  .bmi{
+              font-family: sans-serif;
+              text-align: center;
+              background-color: wheat;
+              width: 100%;
+              padding:20px;
+              position: relative;
+            left: 50%;
+            transform: translate(-50%, 0%);
+          }
+          .bmi h1{
+              
+          }
+          .bmi input{
+            background-color: wheat;
+            border:none;
+            border-bottom: 2px solid darkred;
+              height: 30px;
+              margin-top: 2vh;
+              outline: none;
+          }
+          .bmi input::placeholder {
+    color: darkred;
+    opacity: 1;
+  }
+  
+          .bmi select{
+              height: 30px;
+              border:1px solid darkred;
+              width: 70px;
+              outline: none;
+              background-color: wheat;
+            border:none;
+            border-bottom: 2px solid darkred;
+          }
+          .bmi button{
+              margin-top: 3vh;
+              font-size: 20px;
+              height: fit-content;
+              width: fit-content;
+              padding: 1vh;
+              background-color: rgb(110, 47, 57);
+              color: white;
+              margin-bottom: 3vh;
+          }
+          .bmi button:hover{
+              background-color: rgb(170, 72, 88);
+          }
+          .bmi button:active{
+              background-color: rgb(240, 15, 15);
+          }
+                  .bmi #learnmore{
+              font-size: 20px;
+              height: fit-content;
+              width: fit-content;
+              padding: 10px;
+              color: darkred;
+              margin: auto;
+              border: 1px solid darkred;
+              border-radius: 25px;
+              background-color: rgba(255, 255, 255 ,0.5);
+          }
+          .bmi #learnmore:hover{
+              background-color: rgba(0,0,0,0.2);
+          }
+          .bmi #learnmore:active{
+              background-color: rgba(80,80,80,0.5);
+          }
+          #rweight{
+            margin-left: 32%;
+            margin-right: 32%;
+            border-radius: 20px;
+          }
+          #normal{
+            color:rgb(0, 50, 0);
+          }
+          #rresult{
+            font-size: 20px;
+          }
+          @media screen and (max-width: 600px) {
+            #fronttext{
+            width: 98%;
+          }
+          #rweight{
+            margin-left: 2%;
+            margin-right: 2%;
+          }
+  }
+  .inner_profile .img{
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #FFF;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12),
+          0 2px 4px 0 rgba(0,0,0,0.08);
+    border: 3px solid #3D4852;
+    margin: 0 auto;
+    }
+    .badge{
+    background: #FFF;
+    display: inline-block;
+    padding:0 5px;
+    margin-left: 3px;
+    color: #000;    
+    border-radius: 20px;
+    }
+    .redBadge{
+    background-color: #E3342F;
+    color: #FFF;
+    }
+    .inner_profile .img img{
+    max-height: 100%;
+    width: auto;
+    }
+    .inner_profile h1{
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+    color:	#303030;
+    text-align:center;
+    text-transform: capitalize;
+    }
+    .activesidebar{
+    outline: none;
+    background-color: #1F9D55 !important;
+    color: #FFF !important;
+    }
+      .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    background-color:	#C0C0C0;
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 10vh;
+    }
+    
+    .sidenav a {
+    padding: 5%;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+    text-align:center;
+    background-color:wheat;
+    margin:2%;
+    
+    }
+    
+    .sidenav a:hover {
+    color: red;
+    background-color:white;
+    }
+    
+    .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 36px;
+    margin-left: 50px;
+    background-color:#696969;
+    border:0;
+    padding:0 6% 0 6%;
+    }
+    .sidenav .closebtn:hover{
+    color:white;
+    background-color:red;
+    }
+    
+    @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 10vh;}
+    .sidenav a {font-size: 18px;}
+    }
+    .all_users{
+      margin-left: 10vw;
+    }
+    .all_users .usersWrapper{   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    }
+    .all_users h3{
+    display: block;
+    z-index: 999;
+    }
+    .all_users .user_box{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 1px solid rgba(23,23,23, .2);
+    margin: 5px;
+    padding: 10px;
+    width: fit-content;
+    background-color: #FFF;
+    align-items: stretch;
+    }
+    .user_box .user_img{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border: 1px solid rgba(23,23,23, .1);
+    margin-right: 5px;
+    border-radius: 100px;
+    background-color: #E6E8FF;
+    }
+    .user_box .user_img img{
+    height: 100%;
+    width: auto;
+    }
+    .user_box .user_info{
+    flex-grow: 1;
+    }
+    .user_info span{
+    display: block;
+    }
+    .user_info span:first-child{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color:black;
+    white-space: nowrap;
+    text-transform: capitalize;
+    font-weight: bold;
+    padding-bottom: 5px;
+    }
+    
+    .see_profileBtn{
+    background-color: #794ACF;
+    border: 1px solid rgba(23,23,23, .1);
+    color: #FFF;
+    margin-top:10px;
+    font-size: 12px;
+    padding:3px 7px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    }
+    .see_profileBtn:hover{
+    background-color: #382B5F;
+    }
+    
+    .actions{
+    text-align: center;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #FFF;
+    }
+    
+    .req_actionBtn{
+    font-size: 14px;
+    text-transform: uppercase;
+    padding:5px 10px;
+    border: 1px solid rgba(23,23,23, .1);
+    color: #222222;
+    }
+    
+    .acceptRequest,.sendRequest{
+    background-color: #794ACF;
+    color: #FFF;
+    }
+    .acceptRequest:hover,.sendRequest:hover{
+    background-color: #382B5F;
+    }
+    .unfriend, .ignoreRequest,.cancleRequest{
+    background-color: #EF5753;
+    color: #FFF;
+    }
+    .unfriend:hover,.ignoreRequest:hover,.cancleRequest:hover{
+    background-color: #E3342F;
+    
+    }
+    
+    /* RESPONSIVE */
+    @media only screen and (max-width: 560px) {
+    .all_users .user_box{
+      width: 100%;
+    }
+    }
+    /* width */
+::-webkit-scrollbar {
+  width: 10px;
+  background: #fc7676; 
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  border-radius: 20px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ff2121;
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ac0000; 
+}

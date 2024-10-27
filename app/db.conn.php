@@ -3,12 +3,12 @@
 # server name
 $sName = "localhost";
 # user name
-$uName = "luckytaorem";
+$uName = "root";
 # password
 $pass = "";
 
 # database name
-$db_name = "minorproject";
+$db_name = "majorproject_luckytaorem";
 
 #creating database connection
 try {
